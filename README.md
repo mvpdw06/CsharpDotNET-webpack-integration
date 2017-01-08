@@ -1,5 +1,7 @@
 # 在 C#.NET 中使用(~~踩地雷~~) Webpack
 
+你也可以在我的 [SpeakerDesk - Webpack Integration with ASP.NET](https://speakerdeck.com/mvpdw06/webpack-integration-with-asp-dot-net)  中看倒這篇文章！
+
 ## 目標
 
 1. 在現有的 C#.NET 專案中導入 Webpack 使用新的前端技術，例如：React, ES6+, JSX...等等。
