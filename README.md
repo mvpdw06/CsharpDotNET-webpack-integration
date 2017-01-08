@@ -90,3 +90,8 @@ You should try it by yourself and you will know how easy it it!
 1. 為什麼我的 VisualStudio 2015 跑 webpack.config.babel.js 會出錯？明明我的語法都沒寫錯呀！？倒底～～～？
 
 > Ans：因為你的 VisualStudio 可能使用了錯誤的 Node.js 版本跑指令，請檢查你的 VS 設定 Tools > Options > Projects and Solutions > External Web Tool 新增一個你電腦安裝 Node.js 的路徑，並且排到第一個優先順位！即可解決這樣的問題！
+![image](https://cdn.rawgit.com/mvpdw06/CsharpDotNET-webpack-integration/master/visual-studio-2015-nodejs-options-2.jpg)
+
+# 參考資料
+
+* [Visual Studio 2015 – How to update NodeJS and/or NPM to their latest version](http://www.ryadel.com/en/visual-studio-2015-update-nodejs-andor-npm-latest-version/)
