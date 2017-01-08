@@ -94,6 +94,12 @@ You should try it by yourself and you will know how easy it it!
 > Ans：因為你的 VisualStudio 可能使用了錯誤的 Node.js 版本跑指令，請檢查你的 VS 設定 Tools > Options > Projects and Solutions > External Web Tool 新增一個你電腦安裝 Node.js 的路徑，並且排到第一個優先順位！
 > ![image](https://cdn.rawgit.com/mvpdw06/CsharpDotNET-webpack-integration/master/visual-studio-2015-nodejs-options-2.jpg)
 
+# 進階用法
+
+1. CI Server 用法
+
+> 如果你們公司在各個環境都架設 CI Server（EX: Jenkins），那麼在 CI Server 上安裝 Node.js 正確的版本，並且設定在 Build 環境的 Code 之前，先運行 npm install 在跑 cmd /c SET NODE_ENV=production && webpack -p --color 就可以不需要手動產生檔案，讓 CI Server 幫你處理掉這件事情！
+
 # 參考資料
 
 * [Visual Studio 2015 – How to update NodeJS and/or NPM to their latest version](http://www.ryadel.com/en/visual-studio-2015-update-nodejs-andor-npm-latest-version/)
