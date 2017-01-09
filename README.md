@@ -65,7 +65,7 @@ module.exports = BModule;
 
 可以手動跑，或是綁定 before build 或是 after build！
 
-## 修改 HTML 檔案
+## Step.6 修改 HTML 檔案
 
 Index.html / .aspx / .cshtml 修改為引用打包過輸出的檔案！
 
@@ -83,7 +83,7 @@ Index.html / .aspx / .cshtml 修改為引用打包過輸出的檔案！
 </html>
 ```
 
-## 完成，開始用新的前端框架開發 C#.NET 的網頁應用程式吧！
+## Finish! 完成，開始用新的前端框架開發 C#.NET 的網頁應用程式吧！
 
 You should try it by yourself and you will know how easy it it!
 
